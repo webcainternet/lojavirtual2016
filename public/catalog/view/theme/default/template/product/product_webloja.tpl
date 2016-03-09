@@ -11,7 +11,7 @@
   }
   if ($templateid == '') { ?>
 
-<h2 style="font-size: 18px;">São mais de <span class="wca-font wca-amarela">400 modelos</span> já prontos!</h2>
+<h2 style="font-size: 18px;">São mais de <span class="wca-font wca-amarela">625 modelos</span> já prontos!</h2>
 
 <style type="text/css">
     .image-additional {
@@ -352,7 +352,7 @@
     <p>É incluso manutenção mensal de desenvolvimento técnicas de 2h para as duas formas de contratação: WebLoja Profissional e WebLoja Service. O desenvolvimento técnico pode ser utilizada para qualquer fim de alterações na loja, desde instalação de módulos até inserção de banners, troca de produtos ou textos.</p>
 
     <h4 class="wca-incluso-title">Customização visual</h4>
-    <p>Contamos com mais de 400 modelos da mais alta qualidade para criação de sua loja, montamos o layout e customizamos as imagens e banners. Criação de logo tipos não esta inclusa em nossos pacote, confira os valores em nossa central de atendimento.</p>
+    <p>Contamos com mais de 625 modelos da mais alta qualidade para criação de sua loja, montamos o layout e customizamos as imagens e banners. Criação de logo tipos não esta inclusa em nossos pacote, confira os valores em nossa central de atendimento.</p>
 
     <h4 class="wca-incluso-title">Cálculo automático de frete via correios</h4>
     <p>O valor do frete é calculado automaticamente através dos correios, dando a possibilidade de inserir margens de valores no cálculo.</p>

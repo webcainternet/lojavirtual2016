@@ -42,6 +42,9 @@
     border-bottom: solid 2px #FCAD3A !important;
     color: #FCAD3A !important;
   }
+  .thumbnails {
+    display: none;
+}
 </style>
 
 <?php include "product_webloja.tpl"; ?>
