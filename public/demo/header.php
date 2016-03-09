@@ -33,7 +33,7 @@
         <div class="quadrdinho" style="background-image: url('/image/catalog/webca/tm/51774-med.jpg');">&nbsp;</div>
         <div class="quadrdinho" style="background-image: url('/image/catalog/webca/tm/51838-med.jpg');">&nbsp;</div>
         <div class="comecaragora-text5">
-          <a href="/modelos" target="_parent"><button type="button" id="button-cart" data-loading-text="Carregando..." class="btn btn-primary btn-lg btn-block" style="text-transform: uppercase; margin: 10px 3px;">Ver +625</button></a>
+          <a href="//lojavirtual.digital/modelos" target="_parent"><button type="button" id="button-cart" data-loading-text="Carregando..." class="btn btn-primary btn-lg btn-block" style="text-transform: uppercase; margin: 10px 3px;">Ver +625</button></a>
         </div>
       </div>
 
@@ -59,7 +59,7 @@
       <!-- Profissional -->
       <div id="comecar-profissional">
         <div class="comecaragora-col6">
-          <a href="/profissional" target="_parent"><button type="button" id="button-cart" data-loading-text="Carregando..." class="btn btn-primary btn-lg btn-block" style="margin-top: 20px; text-transform: uppercase;">Saiba mais</button></a>
+          <a href="//lojavirtual.digital/profissional" target="_parent"><button type="button" id="button-cart" data-loading-text="Carregando..." class="btn btn-primary btn-lg btn-block" style="margin-top: 20px; text-transform: uppercase;">Saiba mais</button></a>
         </div>
         <div class="comecaragora-col2">
           <div class="comecaragora-text1 wca-font2">
