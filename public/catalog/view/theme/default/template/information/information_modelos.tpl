@@ -53,7 +53,7 @@
 <ul class="thumbnails">
 <?php
 
-if ($handle = opendir('/Users/fernandomendes/github/lojavirtual/public/image/catalog/webca/tm/')) {
+if ($handle = opendir('/srv/httpd/lojavirtual.digital/public/image/catalog/webca/tm/')) {
     $ci = 0;
     while (false !== ($entry = readdir($handle))) {
 
