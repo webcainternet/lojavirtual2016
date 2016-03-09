@@ -1,0 +1,4 @@
+AuthUserFile /srv/httpd/lojavirtual.digital/lojavirtual/public/.htpasswd
+AuthType Basic
+AuthName "Restrito"
+Require valid-user

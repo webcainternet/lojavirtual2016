@@ -1,0 +1,226 @@
+2016-03-09 0:25:55 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+2016-03-09 1:18:00 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+2016-03-09 1:51:51 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: <font color="#00a99d"><b>Code Market - Menu</b></font>
+FILE: admin/controller/common/menu.php
+CODE: $data['home'] = $this->url->link('common/dashboard', 'token=' . $this->session->data['token'], 'SSL');
+LINE: 113
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $installer; ?>"><?php echo $text_installer; ?></a></li>
+LINE: 26
+----------------------------------------------------------------
+2016-03-09 1:54:31 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: <font color="#00a99d"><b>Code Market - Menu</b></font>
+FILE: admin/controller/common/menu.php
+CODE: $data['home'] = $this->url->link('common/dashboard', 'token=' . $this->session->data['token'], 'SSL');
+LINE: 113
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $installer; ?>"><?php echo $text_installer; ?></a></li>
+LINE: 26
+----------------------------------------------------------------
+MOD: <font color="#00a99d"><b>Code Market - Pagamento Transparente API - IUGU</b></font>
+FILE: catalog/controller/checkout/success.php
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 94
+FILE: catalog/view/theme/default.bak/template/common/success.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 16
+FILE: catalog/view/theme/default/template/common/success.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 16
+FILE: catalog/view/theme/lojavirtual/template/common/success.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 16
+----------------------------------------------------------------
+2016-03-09 2:06:24 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+2016-03-09 2:07:09 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: <font color="#00a99d"><b>Code Market - Menu</b></font>
+FILE: admin/controller/common/menu.php
+CODE: $data['home'] = $this->url->link('common/dashboard', 'token=' . $this->session->data['token'], 'SSL');
+LINE: 113
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $installer; ?>"><?php echo $text_installer; ?></a></li>
+LINE: 26
+----------------------------------------------------------------
+2016-03-09 2:08:00 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: <font color="#00a99d"><b>Code Market - Menu</b></font>
+FILE: admin/controller/common/menu.php
+CODE: $data['home'] = $this->url->link('common/dashboard', 'token=' . $this->session->data['token'], 'SSL');
+LINE: 113
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $installer; ?>"><?php echo $text_installer; ?></a></li>
+LINE: 26
+----------------------------------------------------------------
+MOD: <font color="#00a99d"><b>Code Market - Pagamento Transparente API - IUGU</b></font>
+FILE: catalog/controller/checkout/success.php
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 94
+FILE: catalog/view/theme/default.bak/template/common/success.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 16
+FILE: catalog/view/theme/default/template/common/success.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 16
+FILE: catalog/view/theme/lojavirtual/template/common/success.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 16
+----------------------------------------------------------------
+2016-03-09 2:11:28 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: <font color="#00a99d"><b>Code Market - Menu</b></font>
+FILE: admin/controller/common/menu.php
+CODE: $data['home'] = $this->url->link('common/dashboard', 'token=' . $this->session->data['token'], 'SSL');
+LINE: 113
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $installer; ?>"><?php echo $text_installer; ?></a></li>
+LINE: 26
+----------------------------------------------------------------
+MOD: <font color="#00a99d"><b>Code Market - Pagamento Transparente API - IUGU</b></font>
+FILE: catalog/controller/checkout/success.php
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 94
+FILE: catalog/view/theme/default.bak/template/common/success.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 16
+FILE: catalog/view/theme/default/template/common/success.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 16
+FILE: catalog/view/theme/lojavirtual/template/common/success.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 16
+----------------------------------------------------------------
