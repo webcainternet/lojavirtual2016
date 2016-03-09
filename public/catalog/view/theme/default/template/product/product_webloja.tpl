@@ -326,13 +326,13 @@
 
         <div class="wca-inc-line">
           <div class="wca-inc-col1">Valores</div>
-          <div class="wca-inc-col2">R$ 2.399,88 ou 12x de R$ 199,99 (sem juros)</div>
+          <div class="wca-inc-col2">R$ 2.899,00 ou 12x de R$ 241,58 (sem juros)</div>
           <div class="wca-inc-col3">R$ 299,00/mês</div>
         </div>
 
         <div class="wca-inc-line wca-inc-line-alter">
-          <div class="wca-inc-col1">Contrato/Carência</div>
-          <div class="wca-inc-col2">Sem contrato</div>
+          <div class="wca-inc-col1">Carência</div>
+          <div class="wca-inc-col2">Sem Carência</div>
           <div class="wca-inc-col3">Contrato mínimo de 12 meses</div>
         </div>
 
