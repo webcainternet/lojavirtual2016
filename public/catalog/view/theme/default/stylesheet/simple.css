@@ -233,7 +233,7 @@
 }
 #simplecheckout_cart .form-control {
     display: inline-block !important;
-    min-width: 50px;
+    min-width: 35px;
 }
 .simplecheckout-cart {
     margin: 0px !important;
