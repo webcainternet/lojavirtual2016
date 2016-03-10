@@ -1,15 +1,14 @@
 <?php echo $header; ?>
 
 <?php /* css-compress.php -- <link rel="stylesheet" type="text/css" href="load/skin_allsizes_white.css"/> */ ?>
-<script type="text/javascript" src="load/FWDSimple3DCoverflow.js"></script>
-<script type="text/javascript" src="load/loadcover.js"></script>
+
 
 <style type="text/css">.select-home { border-bottom: solid 2px #FCAD3A !important; color: #FCAD3A !important; }</style>
 
 <?php /*
 <? /* ************************************************************************************
     Slider
-************************************************************************************* */ ?>
+*************************************************************************************
 <style type="text/css">
   .slider1 {
     background-image: url('/image/catalog/mago_e_seu_dragao.jpg');
@@ -394,5 +393,8 @@
     <?php echo $column_right; ?>
   </div>
 </div>
+
+<script type="text/javascript" src="load/FWDSimple3DCoverflow.js"></script>
+<script type="text/javascript" src="load/loadcover.js"></script>
 
 <?php echo $footer; ?>
