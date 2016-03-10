@@ -72,68 +72,11 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-57351164-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 </head>
 <body class="<?php echo $class; ?>">
-
-<style type="text/css">
-  .promocao {
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  background-color: red;
-  z-index: 100;
-  color: #FFFFFF;
-  }
-  .faceicon {
-    font-size: 22px;
-  }
-  .fb-like {
-    margin-right: 5px;
-    margin-top: 13px;
-    float: right;
-  }
-  .face-group {
-    float: right;
-    margin: 10px;
-    color: #49649F;
-  }
-  .face-group:hover {
-    color: #F6AE3B;
-  }
-
-  .telefonebox {
-    background-color: #FCAD3A; 
-    float: right;
-    margin-top: -10px;
-    margin-left: 20px;
-    height: 45px;
-    width: 200px;
-    padding: 10px;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-  }
-  .telefonebox:hover {
-    background-color: #757474;
-  }
-  .navitenscirc {
-    float: left;
-    background-color: #F6AE3B;
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    border-radius: 50%;
-    color: #FFF;
-  }
-  .nav>li>a:focus, .nav>li>a:hover {
-    background-color: #fff;
-  }
-</style>
-
 <?php /*
 <div class="promocao">
   <div style="width: 1170px; padding: 30px; margin: auto;">
@@ -144,7 +87,6 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 ">Os valores ofertados em nosso site são válidos apenas para os orçamentos efetuados até 30/06/2015</div>
   </div>
 </div>
-
 */ ?>
 
 <nav id="top">
