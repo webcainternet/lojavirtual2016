@@ -65,7 +65,8 @@ if ($handle = opendir('/srv/httpd/lojavirtual.digital/public/image/catalog/webca
         }
     }
 
-    $arr = array_reverse($arr);
+    $arr = arsort($arr);
+    //$arr = array_reverse($arr);
     while (list ($key, $val) = each ($arr) ) echo $val; 
 
     closedir($handle);
