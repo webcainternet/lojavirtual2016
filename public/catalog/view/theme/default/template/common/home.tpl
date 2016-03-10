@@ -1,4 +1,6 @@
-<link rel="stylesheet" type="text/css" href="load/skin_allsizes_white.css"/>
+<?php echo $header; ?>
+
+<?php /* css-compress.php -- <link rel="stylesheet" type="text/css" href="load/skin_allsizes_white.css"/> */ ?>
 <script type="text/javascript" src="load/FWDSimple3DCoverflow.js"></script>
 <script type="text/javascript" src="load/loadcover.js"></script>
 
@@ -8,8 +10,6 @@
     color: #FCAD3A !important;
   }
 </style>
-
-<?php echo $header; ?>
 
 
 
