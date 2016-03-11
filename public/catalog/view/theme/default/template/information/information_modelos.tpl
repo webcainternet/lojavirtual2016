@@ -59,7 +59,9 @@ if ($handle = opendir('/srv/httpd/lojavirtual.digital/public/image/catalog/webca
 
         if ($entry != "." && $entry != "..") {
 
-            $arr[$ci] = '<li class="image-additional"><a class="thumbnail" href="http://demo.lojavirtual.digital/demo/?tmid='.substr($entry, 0, 5).'/" target="_blank" title="Modelo - '.$entry.'"><div class="image-texto" style="background-color: #f6ae32; color: #111;">Modelo - '.substr($entry, 0, 5).'</div><img src="//lojavirtual.digital/image/catalog/webca/tm/'.$entry.'" title="Modelo - '.substr($entry, 0, 5).'" alt="Modelo - '.substr($entry, 0, 5).'"><h4>Modelo - '.substr($entry, 0, 5).'</h4><button type="button" style="width: 100%;"><i class="fa fa-shopping-cart-REMOVE"></i> <span class="hidden-xs hidden-sm hidden-md">+ Saiba Mais</span></button></a></li>';
+            $arr[$ci] = '<li class="image-additional thumbnail"><a style="margin-bottom: 5px;" href="http://demo.lojavirtual.digital/demo/?tmid='.substr($entry, 0, 5).'/" target="_blank" title="Modelo - '.$entry.'"><div class="image-texto" style="background-color: #f6ae32; color: #111;">Modelo - '.substr($entry, 0, 5).'</div><img src="//lojavirtual.digital/image/catalog/webca/tm/'.$entry.'" title="Modelo - '.substr($entry, 0, 5).'" alt="Modelo - '.substr($entry, 0, 5).'"><h4>Modelo - '.substr($entry, 0, 5).'</h4></a>
+            <button onclick="window.open(\'http://demo.lojavirtual.digital/demo/?tmid='.substr($entry, 0, 5).'/\',\'_blank\')" type="button" style="width: 49%;"><i class="fa fa-shopping-cart-REMOVE"></i> <span class="hidden-xs hidden-sm hidden-md">Demonstração</span></button>
+            <button onclick="window.location.href=\'/profissional/?templateid='.substr($entry, 0, 5).'\'" type="button" style="width: 50%;"><i class="fa fa-shopping-cart-REMOVE"></i> <span class="hidden-xs hidden-sm hidden-md">Escolher modelo</span></button></li>';
 
             $ci++;
         }
@@ -72,3 +74,9 @@ if ($handle = opendir('/srv/httpd/lojavirtual.digital/public/image/catalog/webca
     closedir($handle);
 }
 ?>
+
+<script type="text/javascript">
+// ViewContent
+// Track key page views (ex: product page, landing page or article)
+fbq('track', 'ViewContent - Modelos');
+</script>

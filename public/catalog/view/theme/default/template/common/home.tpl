@@ -5,42 +5,71 @@
 
 <style type="text/css">.select-home { border-bottom: solid 2px #FCAD3A !important; color: #FCAD3A !important; }</style>
 
-<?php /*
 <? /* ************************************************************************************
     Slider
-*************************************************************************************
+************************************************************************************* */ ?>
+<link href="/catalog/view/javascript/jquery/owl-carousel/owl.carousel.css" rel="stylesheet">
+<link href="/catalog/view/javascript/jquery/owl-carousel/owl.theme.css" rel="stylesheet">
+
 <style type="text/css">
-  .slider1 {
-    background-image: url('/image/catalog/mago_e_seu_dragao.jpg');
-    background-size: 1400px;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+/* Somente na home */
+.product-thumb {
+    border: 0px;
+}
+.product-thumb .caption {
+    min-height: 120px;
+}
+.product-thumb .button-group {
+    display: none;
+}
 </style>
-<div class="slider1">
-&nbsp;
+
+<div style="display: none;"><center><h2 style="font-size: 32px;">Aqui a <span class="wca-font2" style="text-transform: uppercase; color: #757474;">LojaVirtual</span> <span class="wca-font wca-amarela" style="text-transform: none;">.digital</span> desenvolve para você.</h2></center></div>
+
+<div id="demo">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <div id="owl-demo" class="owl-carousel">
+            <div class="item"><img src="/image/catalog/banners/escolha_seu_template_1170.jpg" alt="Escolha o modelo e nós montamos sua loja completa!">
+              <div class="slider-container">
+                <div class="slider-titulo-modelo">
+                  Escolha o modelo e nós<br>montamos sua loja completa!<br>
+                  <a href="/modelos"><button type="button" id="button-cart" data-loading-text="Carregando..." class="btn btn-primary-modelos btn-lg btn-block" style="margin-top: 20px; text-transform: uppercase;">Escolher modelo</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="item"><img src="/image/catalog/banners/mago_e_seu_dragao_1170.jpg" alt="Acompanhe seus pedidos de qualquer lugar!">
+              <div class="slider-container">
+                <div class="slider-titulo-acompanhe">
+                  Acompanhe seus pedidos<br>de qualquer lugar!<br>
+                  <a href="/modelos"><button type="button" id="button-cart" data-loading-text="Carregando..." class="btn btn-primary-comecar btn-lg btn-block" style="margin-top: 20px; text-transform: uppercase;">Começar agora</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="item"><img src="/image/catalog/banners/cadastro_de_produtos_1170.jpg" alt="Acompanhe seus pedidos de qualquer lugar!">
+              <div class="slider-container">
+                <div class="slider-titulo-estoque">
+                  Cadastre seus produtos e gerencie<br>seu estoque com facilidade!<br>
+                  <a href="/modelos"><button type="button" id="button-cart" data-loading-text="Carregando..." class="btn btn-primary-comecar2 btn-lg btn-block" style="margin-top: 20px; text-transform: uppercase;">Começar agora</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
-*/ ?>
+
 
 <? /* ************************************************************************************
     TEMPLATES - CoverFlow
 ************************************************************************************* */ ?>
-<div class="container-titulo">
+<div class="container-titulo" style="background-color: #F8F8F8;">
   <div class="container">
     <div class="row">
-      <div style="font-size: 22px; margin: 15px 0px; text-align: center;">
-        <i class="fa fa-question-circle" style="font-size: 22px;"></i>
-        Quer criar uma loja virtual de qualidade?
-      </div>
-    </div>
-  </div>
-</div>
-<div class="container-titulo" style="background-color: #eee;">
-  <div class="container">
-    <div class="row">
-      <div style="font-size: 14px; margin: 15px 0px; text-align: center;  color: #757474;">
-        Aqui a LOJAVIRTUAL.digital desenvolve para você. São mais de 650 temas já prontos, <a href="/modelos">Conheça nossos modelos!</a>
+      <div style="font-size: 14px; margin: 30px 0px 0px 0px; text-align: center; color: #757474;">
+        <center><h2 style="font-size: 32px;">São mais de <span class="wca-font wca-amarela" style="text-transform: none;">650 modelos</span> já prontos.</h2></center>
       </div>
     </div>
   </div>
@@ -121,7 +150,7 @@
               </div>
 
               <div class="container-passos">
-                  <div class="container-passos-img" style="background-image: url('/image/catalog/webca/step-cadastro.png'); background-color: #FF9999;">&nbsp;</div>
+                  <div class="container-passos-img" style="background-image: url('/image/catalog/webca/step-cadastro-aqua.png'); background-color: #FF9999;">&nbsp;</div>
                   <div class="container-passos-titulo">Cadastre seus produtos</div>
                   <div>
                       Faça o cadastro de seus produtos através de nossa plataforma de administração e fique a vontade para fazer modificações quando quiser sem a necessidade um desenvolvedor. <br /><br /> Você pode contar também com suporte técnico de nossa central de atendimento ou utilizar a manutenção mensal de nossos desenvolvedores.
@@ -129,7 +158,7 @@
                 </div>
 
                 <div class="container-passos">
-                  <div class="container-passos-img" style="background-image: url('/image/catalog/webca/step-recebimento.png'); border-radius: 0px; background-color: white;">&nbsp;</div>
+                  <div class="container-passos-img" style="background-image: url('/image/catalog/webca/step-recebimento-aqua.png'); border-radius: 0px; background-color: white;">&nbsp;</div>
                   <div class="container-passos-titulo">Receba o pagamento</div>
                   <div style="padding-bottom: 15px;">
                       Venda seus produtos e receba o pagamento através de cartão de crédito, débito, boleto ou transferência bancária. Você ainda pode dar a possibilidade de parcelamento.
@@ -138,7 +167,7 @@
                 </div>
 
                 <div class="container-passos">
-                  <div class="container-passos-img" style="background-image: url('/image/catalog/webca/step-envio.png');">&nbsp;</div>
+                  <div class="container-passos-img" style="background-image: url('/image/catalog/webca/step-envio-aqua.png');">&nbsp;</div>
                   <div class="container-passos-titulo">Envie o pedido</div>
                   <div style="padding-bottom: 15px;">
                       O valor do frete de seus produtos é calculado automaticamente em sua loja e você precisa apenas enviar os pedidos.
@@ -394,5 +423,36 @@
 
 <script type="text/javascript" src="load/FWDSimple3DCoverflow.js"></script>
 <script type="text/javascript" src="load/loadcover.js"></script>
+
+<script src="/catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+
+<style>
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+</style>
+
+
+<script>
+$(document).ready(function() {
+  $("#owl-demo").owlCarousel({
+
+  navigation : false,
+  slideSpeed : 300,
+  paginationSpeed : 400,
+  singleItem : true
+
+  // "singleItem:true" is a shortcut for:
+  // items : 1, 
+  // itemsDesktop : false,
+  // itemsDesktopSmall : false,
+  // itemsTablet: false,
+  // itemsMobile : false
+
+  });
+});
+</script>
 
 <?php echo $footer; ?>

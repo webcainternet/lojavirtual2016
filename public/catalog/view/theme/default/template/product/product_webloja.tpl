@@ -364,3 +364,9 @@
     <p>Não existe a necessidade da contratação de um provedor, provemos hospedagem compartilhada para seu site. Caso queira utilizar outro provedor de hospedagem a propriedade do código fonte da loja é sua no plano WebLoja Profissional de imediato e no plano WebLoja Service após a carência de 12 meses. Caso queira manter sua loja hospedada conosco sem a necessidade de pagamento de manutenção temos preços mais acessíveis consulte nosso atendimento.</p>
             
 </div>
+
+<script type="text/javascript">
+// ViewContent
+// Track key page views (ex: product page, landing page or article)
+fbq('track', 'ViewContent - Profissional');
+</script>

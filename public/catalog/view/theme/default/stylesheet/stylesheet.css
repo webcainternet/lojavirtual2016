@@ -120,8 +120,8 @@ div.required .control-label:before {
 }
 /* logo */
 #logo {
-    margin: 0 0 10px 0;
-    max-width: 320px;
+    margin: 15px 0 10px 0;
+    max-width: 300px;
 }
 /* search */
 #search {
@@ -847,8 +847,6 @@ h2.price {
 
 .content-incluso {
 	background-color: #F8F8F8;
-    border-top: 1px solid #d6d6d6;
-    border-bottom: 1px solid #d6d6d6;
 	padding-bottom: 20px;
 }
 
@@ -856,14 +854,13 @@ h2.price {
 
 
 .container-titulo {
-    background-color: #F6AE3B;
     color: #FFF;
     margin: 0px;
+    margin-top: 30px;
+    padding-top: 10px;
 }
 .container-tema {
 	background-color: #F8F8F8;
-    /* border-top: 1px solid #d6d6d6; */
-    border-bottom: 1px solid #d6d6d6;
 	height: 650px;
 	margin: 0px;
 }
@@ -1030,9 +1027,10 @@ h2.price {
 	background-size: 105px 20px;
 	font-size: 1px;
 }
+/*
 .wca-logo-white:hover {
 	background-image: url('//lojavirtual.digital/image/catalog/webca/logo_nb.png');
-}
+}*/
 
 .wca-footer-mid {
   display: inline-block;
@@ -1111,7 +1109,6 @@ margin-top: 20px;
 	padding: 30px 0px;
     background: #F8F8F8;
     margin-top: 30px;
-    border-top: 1px solid #d6d6d6;
 }
 .prefooter h5 {
     color: #1d1f20;
@@ -1120,13 +1117,16 @@ margin-top: 20px;
     font-weight: 400;
     margin: 0 0 10px;
     padding-bottom: 8px;
-    border-bottom: 1px solid #dcdcdc;
 }
 .prefooter .col-sm-3 li:first-child {
     border-top: 0;
 }
 .prefooter .col-sm-3 li {
     padding: 10px 0 1px;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #666;
 }
 .prefooter a {
     font-size: 12px;
@@ -1342,7 +1342,7 @@ margin-top: 20px;
   }
   .fb-like {
     margin-right: 5px;
-    margin-top: 13px;
+    margin-top: 10px;
     float: right;
   }
   .face-group {
@@ -1445,3 +1445,80 @@ margin-top: 20px;
     border: solid 1px #F6AE3B;
     border-radius: 3px;
   }
+
+
+
+
+/* Banners da home */
+  .slider-titulo-acompanhe {
+    text-align: center;
+    font-size: 31px;
+    line-height: 40px;
+    margin-left: 755px;
+    padding: 15px;
+    color: rgba(85,85,85,1);
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    padding-top: 75px;
+  }
+  .slider-titulo-estoque {
+    text-align: center;
+    font-size: 31px;
+    line-height: 40px;
+    padding: 15px;
+    color: rgba(85,85,85,1);
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    padding-top: 50px;
+    width: 600px;
+  }
+  .slider-titulo-modelo {
+    text-align: center;
+    font-size: 31px;
+    line-height: 40px;
+    width: 550px;
+    padding: 15px;
+    color: rgba(85,85,85,1);
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    padding-top: 120px;
+  }
+  .slider-container {
+    margin: auto;
+    width: 1170px;
+    position: absolute;
+    top: 0px;
+  }
+  .btn-primary-modelos {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #5CB83B;
+    background-repeat: repeat-x;
+    border-color: #349970 #349970 #349970;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    width: 175px;
+    margin-left: 165px;
+  }
+  .btn-primary-comecar {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #D97B71;
+    background-repeat: repeat-x;
+    border-color: #621E15 #621E15 #621E15;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    width: 175px;
+    margin-left: 110px;
+  }
+  .btn-primary-comecar2 {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #D97B71;
+    background-repeat: repeat-x;
+    border-color: #621E15 #621E15 #621E15;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    width: 175px;
+    margin-left: 210px;
+}

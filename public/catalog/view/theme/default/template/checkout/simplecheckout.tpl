@@ -192,3 +192,10 @@ include $simple_header;
 </div>
 <?php include $simple_footer ?>
 <?php } ?>
+
+
+<script type="text/javascript">
+// InitiateCheckout
+// Track when people enter the checkout flow (ex. click/landing page on checkout button)
+fbq('track', 'InitiateCheckout');
+</script>

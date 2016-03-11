@@ -56,6 +56,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 <!-- FIM Facebook Like box -->
 
+
 <!--Start of Zopim Live Chat Script-->
 <script type="text/javascript">
 window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
@@ -66,7 +67,23 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 </script>
 <!--End of Zopim Live Chat Script-->
 
-<?php //echo $google_analytics; ?>
+<?php if (HOMOLOG != 'true') {  ?>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '952885944793384');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=952885944793384&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Google Analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -75,6 +92,9 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
   ga('create', 'UA-57351164-1', 'auto');
   ga('send', 'pageview');
 </script>
+<!-- FIM Google Analytics -->
+ <?php } ?>
+
 </head>
 <body class="<?php echo $class; ?>">
 <?php /*
@@ -89,6 +109,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 </div>
 */ ?>
 
+<?php /*
 <nav id="top">
   <div class="container">
     <?php echo $currency; ?>
@@ -115,6 +136,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
     </div>
   </div>
 </nav>
+*/ ?>
 
 <header>
   <div class="container">
@@ -128,9 +150,12 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
           <?php } ?>
         </div>
       </div>
-      <div class="col-sm-5" style="padding-right: 30px; margin-top: 10px;"><?php echo $search; ?>
+      
+      <div class="col-sm-3" style="padding-left: 0px; margin-top: 10px; font-size: 14px; float: right; width: 230px;">
+        <div class="telefonebox"><i class="fa fa-phone" style="font-size: 22px; color: #FFF; margin-left: 8px;"></i>&nbsp;<span class="hidden-xs hidden-sm hidden-md" style="color: #ffffff; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; font-size: 22px;"><?php echo $telephone; ?></span></div>
       </div>
-      <div class="col-sm-3" style="padding-left: 0px; margin-top: 10px; font-size: 14px;">
+      
+      <div class="col-sm-3" style="padding-left: 0px; margin-top: 10px; font-size: 14px; float: right; width: 270px;">
         <?php //echo $cart; ?>
         <a href="https://facebook.com/lojavirtual.digital" target="_blank">
         <div class="fb-like" data-href="https://facebook.com/lojavirtual.digital" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
@@ -141,6 +166,8 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
         </div>
         </a>
       </div>
+
+      <div class="col-sm-5" style="margin-top: 10px; width: 230px; float: right;"><?php echo $search; ?></div>
 
       <div class="container">
         <nav id="menu" class="navbar">

@@ -178,7 +178,7 @@
       <p>Loja Virtual .digital - WebCA Internet © 2011 - 2016</p> 
     </div>
     <div class="wca-footer-mid" style="text-align: right;">
-      <a href="//webca.com.br/"><div class="wca-logo-white">&nbsp;</div></a>
+      <div class="wca-logo-white">&nbsp;</div>
     </div>
 
     <p>Webca Serviços de Internet e tecnologia / CNPJ: 13.391.967/0001&shy;-93 / CCM : 4.248.789-7<br>Em São Paulo no Ipiranga: Rua Silva Bueno, 83 - São Paulo, SP - 04208&shy;-050, na Vila Mariana: Rua Embuaçu, 625, Sala 6 - São Paulo - SP - 04118-080<br>Atendimento ao cliente 11 2376-0583 ou via e-mail contato@lojavirtual.digital</p>
