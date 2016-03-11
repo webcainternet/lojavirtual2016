@@ -47,7 +47,7 @@
                 </div>
               </div>
             </div>
-            <div class="item"><img src="/image/catalog/banners/cadastro_de_produtos_2_1170.jpg" alt="Acompanhe seus pedidos de qualquer lugar!">
+            <div class="item"><img src="/image/catalog/banners/cadastro_de_produtos_2_1170.jpg" alt="Cadastre seus produtos e gerencie seu estoque com facilidade!">
               <div class="slider-container">
                 <div class="slider-titulo-estoque">
                   Cadastre seus produtos e gerencie<br>seu estoque com facilidade!<br>
