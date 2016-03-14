@@ -150,7 +150,7 @@
               </div>
 
               <div class="container-passos">
-                  <div class="container-passos-img" style="background-image: url('/image/catalog/banners/icones/icone2.jpg'); background-color: #FF9999;">&nbsp;</div>
+                  <div class="container-passos-img" style="background-image: url('/image/catalog/banners/icones/icone2.jpg');">&nbsp;</div>
                   <div class="container-passos-titulo">Gerencie seu estoque com facilidade</div>
                   <div>
                       Faça o cadastro de seus produtos através de nossa plataforma de administração e fique a vontade para fazer modificações quando quiser sem a necessidade um desenvolvedor.
@@ -158,7 +158,7 @@
                 </div>
 
                 <div class="container-passos">
-                  <div class="container-passos-img" style="background-image: url('/image/catalog/banners/icones/icone3.jpg'); border-radius: 0px; background-color: white;">&nbsp;</div>
+                  <div class="container-passos-img" style="background-image: url('/image/catalog/banners/icones/icone3.jpg');">&nbsp;</div>
                   <div class="container-passos-titulo">Integração com gateways de pagamento mais comuns</div>
                   <div style="padding-bottom: 15px;">
                       Venda seus produtos e receba o pagamento através de cartão de crédito, débito, boleto ou transferência bancária. Você ainda pode dar a possibilidade de parcelamento.
