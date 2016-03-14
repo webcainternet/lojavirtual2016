@@ -10,20 +10,7 @@
 ************************************************************************************* */ ?>
 <link href="/catalog/view/javascript/jquery/owl-carousel/owl.carousel.css" rel="stylesheet">
 <link href="/catalog/view/javascript/jquery/owl-carousel/owl.theme.css" rel="stylesheet">
-
-<style type="text/css">
-/* Somente na home */
-.product-thumb {
-    border: 0px;
-}
-.product-thumb .caption {
-    min-height: 120px;
-}
-.product-thumb .button-group {
-    display: none;
-}
-</style>
-
+<style type="text/css">.product-thumb {border: 0px;}.product-thumb .caption {min-height: 120px;}.product-thumb .button-group {display: none;}</style>
 <div style="display: none;"><center><h2 style="font-size: 32px;">Aqui a <span class="wca-font2" style="text-transform: uppercase; color: #757474;">LojaVirtual</span> <span class="wca-font wca-amarela" style="text-transform: none;">.digital</span> desenvolve para você.</h2></center></div>
 
 <div id="demo">
