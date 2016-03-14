@@ -408,35 +408,23 @@
 
 <script type="text/javascript" src="load/FWDSimple3DCoverflow.js"></script>
 <script type="text/javascript" src="load/loadcover.js"></script>
-
 <script src="/catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
 
-<style>
-#owl-demo .item img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
-</style>
-
-
+<style>#owl-demo .item img{display: block;width: 100%;height: auto;}</style>
 <script>
 $(document).ready(function() {
   $("#owl-demo").owlCarousel({
-
   navigation : false,
   slideSpeed : 300,
   paginationSpeed : 400,
   singleItem : true,
   autoPlay : 5000
-
   // "singleItem:true" is a shortcut for:
   // items : 1, 
   // itemsDesktop : false,
   // itemsDesktopSmall : false,
   // itemsTablet: false,
   // itemsMobile : false
-
   });
 });
 </script>

@@ -44,7 +44,6 @@
 <?php foreach ($scripts as $script) { ?>
 <script src="<?php echo $script; ?>" type="text/javascript"></script>
 <?php } ?>
-
 <!-- Facebook Like box -->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -55,8 +54,6 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <!-- FIM Facebook Like box -->
-
-
 <!--Start of Zopim Live Chat Script-->
 <script type="text/javascript">
 window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
@@ -66,7 +63,6 @@ $.src='//v2.zopim.com/?2cQwfyblujZ70I5VuozVJQAV8RxfHpLn';z.t=+new Date;$.
 type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 </script>
 <!--End of Zopim Live Chat Script-->
-
 <?php if (HOMOLOG != 'true') {  ?>
 <!-- Facebook Pixel Code -->
 <script>
@@ -75,7 +71,6 @@ n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
 n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','//connect.facebook.net/en_US/fbevents.js');
-
 fbq('init', '952885944793384');
 fbq('track', "PageView");</script>
 <noscript><img height="1" width="1" style="display:none"
