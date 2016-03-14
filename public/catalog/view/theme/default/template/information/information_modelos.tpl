@@ -1,53 +1,67 @@
 <style type="text/css">
-  .select-modelos {
+    .select-modelos {
     border-bottom: solid 2px #FCAD3A !important;
     color: #FCAD3A !important;
-  }
+    }
     .image-additional {
-        max-width: 365px;
+    max-width: 365px;
     }
     .image-texto {
-        text-align: center;
-        padding: 5px;
-        display: none;
+    text-align: center;
+    padding: 5px;
+    display: none;
     }
     .image-texto-demo {
-        text-align: center;
-        padding: 5px;
-        background-color: #eee;
-        width: 140px;
-        margin: auto;
-        margin-top: 5px;
-        border-radius: 5px;
-        font-size: 10px;
-        border: solid 1px;
-        font-weight: bold;
-        text-transform: uppercase;
-        }
+    text-align: center;
+    padding: 5px;
+    background-color: #eee;
+    width: 140px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+    border: solid 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    }
     h4 {
-        color: #f6ae3b;
-        font-weight: bold;
+    color: #f6ae3b;
+    font-weight: bold;
     }
     h4:hover {
-        color: #2a6496;
+    color: #2a6496;
     }
     button {
-        width: 100%;
-        border: none;
-        display: inline-block;
-        background-color: #eee;
-        color: #888;
-        line-height: 38px;
-        font-weight: bold;
-        text-align: center;
-        text-transform: uppercase;
+    width: 100%;
+    border: none;
+    display: inline-block;
+    background-color: #eee;
+    color: #888;
+    line-height: 38px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
     }
     button:hover {
     color: #444;
     background-color: #ddd;
     text-decoration: none;
     cursor: pointer;
-}
+    }
+    /* modelos - mouse hover */
+    .thumbnail {
+    border: solid 0px #ddd;
+    margin: 15px 0px;
+    }
+    .thumbnail:hover {
+    border: solid 1px #f6ae3b;
+    box-shadow: 0px 0px 40px -5px rgba(0, 0, 0, 0.6);
+    transform: scale(1.02);
+    backface-visibility: hidden;
+    image-rendering: pixelated;
+    transition: transform 200ms linear;
+    will-change: transform;
+    }
 </style>
 
 <ul class="thumbnails">
