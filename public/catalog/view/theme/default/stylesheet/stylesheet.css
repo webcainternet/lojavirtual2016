@@ -525,7 +525,7 @@ footer h5 {
 }
 .product-thumb .caption {
 	padding: 0 20px;
-	min-height: 180px;
+	min-height: 100px;
 }
 .product-list .product-thumb .caption {
 	margin-left: 230px;
@@ -653,7 +653,6 @@ h2.price {
 	margin-bottom: 20px;
 	padding: 5px;
 	display: block;
-	border: 1px solid #ddd;
 }
 .image-additional {
 	max-width: 78px;
@@ -1525,4 +1524,31 @@ margin-top: 20px;
     font-family: 'Open Sans', sans-serif;
     width: 175px;
     margin-left: 210px;
+}
+
+
+/* modelos - mouse hover */
+.thumbnail {
+  border: solid 0px #ddd;
+  margin: 15px 0px;
+}
+.thumbnail:hover {
+	border: solid 1px #f6ae3b;
+	box-shadow: 0px 0px 40px -5px rgba(0, 0, 0, 0.6);
+	transform: scale(1.02);
+	backface-visibility: hidden;
+	image-rendering: pixelated;
+	transition: transform 200ms linear;
+	will-change: transform;
+}
+
+/* home - plugins thumb */
+.product-thumb:hover {
+	border: solid 1px #f6ae3b;
+	box-shadow: 0px 0px 40px -5px rgba(0, 0, 0, 0.6);
+	transform: scale(1.02);
+	backface-visibility: hidden;
+	image-rendering: pixelated;
+	transition: transform 200ms linear;
+	will-change: transform;
 }

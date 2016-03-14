@@ -151,9 +151,9 @@
 
               <div class="container-passos">
                   <div class="container-passos-img" style="background-image: url('/image/catalog/banners/icones/icone2.jpg'); background-color: #FF9999;">&nbsp;</div>
-                  <div class="container-passos-titulo">Cadastre seus produtos com maior facilidade</div>
+                  <div class="container-passos-titulo">Gerencie seu estoque com facilidade</div>
                   <div>
-                      Faça o cadastro de seus produtos através de nossa plataforma de administração e fique a vontade para fazer modificações quando quiser sem a necessidade um desenvolvedor. <br /><br /> Você pode contar também com suporte técnico de nossa central de atendimento ou utilizar a manutenção mensal de nossos desenvolvedores.
+                      Faça o cadastro de seus produtos através de nossa plataforma de administração e fique a vontade para fazer modificações quando quiser sem a necessidade um desenvolvedor.
                   </div>
                 </div>
 
@@ -163,7 +163,6 @@
                   <div style="padding-bottom: 15px;">
                       Venda seus produtos e receba o pagamento através de cartão de crédito, débito, boleto ou transferência bancária. Você ainda pode dar a possibilidade de parcelamento.
                   </div>
-                  <img src="/image/catalog/webca/bandeiras.png">
                 </div>
 
                 <div class="container-passos">
@@ -172,7 +171,6 @@
                   <div style="padding-bottom: 15px;">
                       O valor do frete de seus produtos é calculado automaticamente em sua loja e você precisa apenas enviar os pedidos.
                   </div>
-                  <img src="/image/catalog/webca/correios.png">
                 </div>
 
             </div>

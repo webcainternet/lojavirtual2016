@@ -6,7 +6,7 @@
 
 
 <center><h2 style="font-size: 32px; margin-bottom: 45px;">Confira os <span class="wca-font wca-amarela" style="text-transform: none;">plugins</span> mais utilizados</h2></center>
-<div class="row">
+<div class="row" style="min-height: 480px;">
   <?php foreach ($products as $product) { ?>
   <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
     <div class="product-thumb transition">
