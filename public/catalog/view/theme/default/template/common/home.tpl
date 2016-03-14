@@ -145,21 +145,21 @@
               
               <div class="row">
                 <div class="col-lg-12" style="padding: 20px; color: #333; font-size: 32px;">
-                    <center><h2 style="font-size: 32px;">A <span class="wca-font2" style="text-transform: uppercase; color: #757474;">LojaVirtual</span> <span class="wca-font wca-amarela" style="text-transform: none;">.digital</span> tem <b>tudo</b> para você <b>vender online</b></h2></center>
+                    <center><h2 style="font-size: 32px;">Está <span class="wca-font wca-amarela" style="text-transform: none;">tudo pronto</span> para você começar agora</h2></center>
                 </div>
               </div>
 
               <div class="container-passos">
-                  <div class="container-passos-img" style="background-image: url('/image/catalog/webca/step-cadastro-aqua.png'); background-color: #FF9999;">&nbsp;</div>
-                  <div class="container-passos-titulo">Cadastre seus produtos</div>
+                  <div class="container-passos-img" style="background-image: url('/image/catalog/banners/icones/icone2.jpg'); background-color: #FF9999;">&nbsp;</div>
+                  <div class="container-passos-titulo">Cadastre seus produtos com maior facilidade</div>
                   <div>
                       Faça o cadastro de seus produtos através de nossa plataforma de administração e fique a vontade para fazer modificações quando quiser sem a necessidade um desenvolvedor. <br /><br /> Você pode contar também com suporte técnico de nossa central de atendimento ou utilizar a manutenção mensal de nossos desenvolvedores.
                   </div>
                 </div>
 
                 <div class="container-passos">
-                  <div class="container-passos-img" style="background-image: url('/image/catalog/webca/step-recebimento-aqua.png'); border-radius: 0px; background-color: white;">&nbsp;</div>
-                  <div class="container-passos-titulo">Receba o pagamento</div>
+                  <div class="container-passos-img" style="background-image: url('/image/catalog/banners/icones/icone3.jpg'); border-radius: 0px; background-color: white;">&nbsp;</div>
+                  <div class="container-passos-titulo">Integração com gateways de pagamento mais comuns</div>
                   <div style="padding-bottom: 15px;">
                       Venda seus produtos e receba o pagamento através de cartão de crédito, débito, boleto ou transferência bancária. Você ainda pode dar a possibilidade de parcelamento.
                   </div>
@@ -167,8 +167,8 @@
                 </div>
 
                 <div class="container-passos">
-                  <div class="container-passos-img" style="background-image: url('/image/catalog/webca/step-envio-aqua.png');">&nbsp;</div>
-                  <div class="container-passos-titulo">Envie o pedido</div>
+                  <div class="container-passos-img" style="background-image: url('/image/catalog/banners/icones/icone1.jpg');">&nbsp;</div>
+                  <div class="container-passos-titulo">Cálculo de frete automático via Correios</div>
                   <div style="padding-bottom: 15px;">
                       O valor do frete de seus produtos é calculado automaticamente em sua loja e você precisa apenas enviar os pedidos.
                   </div>
@@ -265,7 +265,7 @@
       <div class="row">
 
           <div class="col-lg-12" style="padding-top: 40px; color: #333; font-size: 32px;">
-            <center><h2 style="font-size: 32px;">O que é incluso na <span class="wca-font2" style="text-transform: uppercase; color: #757474;">LojaVirtual <span class="wca-font wca-amarela" style="text-transform: none;">.digital</span></h2></center>
+            <center><h2 style="font-size: 32px;">O que está <span class="wca-font wca-amarela" style="text-transform: none;">incluso</span> em nossas lojas</h2></center>
           </div>
 
           <div class="col-lg-12" style="padding: 20px;">
