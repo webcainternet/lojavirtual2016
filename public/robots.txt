@@ -1,1 +1,7 @@
 Sitemap: https://lojavirtual.digital/sitemap.xml
+Disallow: /orcamento-20150522154898
+Disallow: /orcamento-20150522154898
+Disallow: /orcamento-20150223123202
+Disallow: /orcamento-20150309152001
+Disallow: /orcamento-20150317100501
+Disallow: /pagamento-02-20150506153202
