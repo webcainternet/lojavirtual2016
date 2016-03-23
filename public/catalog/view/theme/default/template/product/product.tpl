@@ -178,8 +178,8 @@
             <?php if (!$special) { ?>
             <li>
               <?php if ($model == "Loja Virtual Profissional") { ?> 
-              <h2><span style="font-size: 14px;">À vista: <?php echo $price; ?></span></h2>
-              <h2><span style="font-size: 14px;">ou 12x de </span> R$ 241,58 <span style="font-size: 14px;">Sem juros</span></h2>
+              <h2><span style="font-size: 14px;">12x de </span> R$ 239,90 <span style="font-size: 14px;">Sem juros</span></h2>
+              <h3><span style="font-size: 14px;">Desconto à vista: de <strike>R$ 2.878,80</strike> por R$ 2.590,92</span></h3>
               
               <?php } else { ?>
               <h2><?php echo $price; ?></h2>

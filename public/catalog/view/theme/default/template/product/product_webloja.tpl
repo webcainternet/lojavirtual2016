@@ -326,7 +326,7 @@
 
         <div class="wca-inc-line">
           <div class="wca-inc-col1">Valores</div>
-          <div class="wca-inc-col2">R$ 2.899,00 ou 12x de R$ 241,58 (sem juros)</div>
+          <div class="wca-inc-col2">R$ 2.878,80 ou 12x de R$ 239,90 (sem juros)</div>
           <div class="wca-inc-col3">R$ 299,00/mês</div>
         </div>
 
