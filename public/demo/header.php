@@ -64,9 +64,9 @@
         <div class="comecaragora-col2">
           <div class="comecaragora-text1 wca-font2">
             <span style="font-size: 18px;color: #f6ae3b;" class="wca-font">Profissional</span>
-            R$ 2.899,00
+            <span style="font-size: 12px;" class="wca-font2">12x de </span>R$ 241<span style="font-size: 12px;" class="wca-font2">,00</span>
           </div>
-          <div class="comecaragora-text2 wca-font2">Em até 12x de R$ 241,58 ou preço</div>
+          <div class="comecaragora-text2 wca-font2">Incluso hospedagem por 1 ano</div>
           <div class="comecaragora-text2 wca-font2">à vista R$ 2.689,20 (10% de desconto)</div>
         </div>
       </div>
