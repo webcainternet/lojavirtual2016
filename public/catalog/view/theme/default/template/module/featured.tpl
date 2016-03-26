@@ -26,7 +26,7 @@
         </div>
         <?php } ?>
         <?php if ($product['price']) { ?>
-        <p class="price">
+        <p class="price" style="display: none;">
           <?php if (!$product['special']) { ?>
           <?php echo $product['price']; ?>
           <?php } else { ?>
