@@ -78,11 +78,11 @@ $headers .= "$boundary" . $quebra_linha . "";
  
 //envia o email com o anexo para o cliente
 if ($email != "") {
-//	mail($email,$assunto,$mens,$headers, "-r"."fernando.mendes@lojavirtual.digital"); 
+	mail($email,$assunto,$mens,$headers, "-r"."fernando.mendes@lojavirtual.digital"); 
 }
 
 //envia o email para nós com os dados do cliente
-//mail("fernando.mendes@lojavirtual.digital","Loja Virtual .digital - Novo orçamento solicitado",$mens2,$headers, "-r"."fernando.mendes@lojavirtual.digital");
+mail("fernando.mendes@lojavirtual.digital","Loja Virtual .digital - Novo orçamento solicitado",$mens2,$headers, "-r"."fernando.mendes@lojavirtual.digital");
  
 echo"ok";
 ?>
