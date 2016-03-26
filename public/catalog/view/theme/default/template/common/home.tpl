@@ -160,7 +160,7 @@ Algum campo foi preenchido incorretamente!
 <? /* ************************************************************************************
     ORÇAMENTO - Formulário
 ************************************************************************************* */ ?>
-<div class="container-titulo" style="background-color: #F6AE3B; margin-top: 30px; padding-bottom: 30px;">
+<div class="container-titulo" style="background-color: #F6AE3B; margin-top: 30px; padding: 30px 0px;">
   <div class="container">
     <div class="row">
       <div style="text-align: center;">
