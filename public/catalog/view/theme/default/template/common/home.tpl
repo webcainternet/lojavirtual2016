@@ -174,7 +174,7 @@ Algum campo foi preenchido incorretamente!
         <input class="orctext" type="text" name="orcemail" placeholder="E-Mail" id="orcemail">
         <input class="orctext" type="text" name="orctelefone" placeholder="Telefone" id="orctelefone">
         <input class="newsletter-contato btn btn-inverse btn-lg dropdown-toggle" style="width: 250px; height: 55px; border: 0px; color: #FFF !important;" type="submit" required="" name="orcenviar" id="orcenviar" value="Receber orçamento">
-        <div style="margin-top: 10px; color: #FFF; font-size: 14px; text-align: center;">O orçamento pode ser visualizado através do link <a href="" style="color: #FFF; text-decoration: underline;">/orcamento</a></div>
+        <div style="margin-top: 10px; color: #FFF; font-size: 14px; text-align: center;">O orçamento pode ser visualizado através do link <a href="/orcamento" target="_blank" style="color: #FFF; text-decoration: underline;">/orcamento</a></div>
       </div>
     </div>
   </div>
