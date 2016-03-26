@@ -43,8 +43,8 @@ exit;
 } 
 */
  
-$fp = fopen('/srv/httpd/lojavirtual.digital/lojavirtual2016/public/orcamento/PROPOSTA-SP815-2016.pdf',"rb"); 
-$anexo = fread($fp,filesize('/srv/httpd/lojavirtual.digital/lojavirtual2016/public/orcamento/PROPOSTA-SP815-2016.pdf')); 
+$fp = fopen('/srv/httpd/lojavirtual.digital/lojavirtual2016/public/orcamento/PROPOSTA-SP2016.pdf',"rb"); 
+$anexo = fread($fp,filesize('/srv/httpd/lojavirtual.digital/lojavirtual2016/public/orcamento/PROPOSTA-SP2016.pdf')); 
 $anexo = base64_encode($anexo); 
  
 fclose($fp); 
@@ -58,8 +58,8 @@ $mens .= "Content-Transfer-Encoding: 8bits" . $quebra_linha . "";
 $mens .= "Content-Type: text/html; charset=\"UTF-8\"" . $quebra_linha . "" . $quebra_linha . ""; //plain 
 $mens .= "$mensagem" . $quebra_linha . ""; 
 $mens .= "--$boundary" . $quebra_linha . ""; 
-$mens .= "Content-Type: application/pdf; name=\"PROPOSTA-SP815-2016.pdf\"" . $quebra_linha . ""; 
-$mens .= "Content-Disposition: attachment; filename=\"PROPOSTA-SP815-2016.pdf\"" . $quebra_linha . ""; 
+$mens .= "Content-Type: application/pdf; name=\"PROPOSTA-SP2016.pdf\"" . $quebra_linha . ""; 
+$mens .= "Content-Disposition: attachment; filename=\"PROPOSTA-SP2016.pdf\"" . $quebra_linha . ""; 
 $mens .= "Content-Transfer-Encoding: base64" . $quebra_linha . "" . $quebra_linha . ""; 
 $mens .= "$anexo" . $quebra_linha . ""; 
 $mens .= "--$boundary--" . $quebra_linha . ""; 
