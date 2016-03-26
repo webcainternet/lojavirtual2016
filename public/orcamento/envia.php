@@ -82,7 +82,7 @@ if ($email != "") {
 }
 
 //envia o email para nós com os dados do cliente
-mail("fernando.mendes@lojavirtual.digital","Loja Virtual .digital - Novo orçamento solicitado",$mens2,$headers, "-r"."fernando.mendes@lojavirtual.digital");
+mail("fernando.mendes@lojavirtual.digital","Loja Virtual .digital - Nova proposta solicitada",$mens2,$headers, "-r"."fernando.mendes@lojavirtual.digital");
  
 echo"ok";
 ?>
