@@ -46,7 +46,7 @@ $boundary = "XYZ-" . date("dmYis") . "-ZYX";
  
 $mens = "--$boundary" . $quebra_linha . ""; 
 $mens .= "Content-Transfer-Encoding: 8bits" . $quebra_linha . ""; 
-$mens .= "Content-Type: text/html; charset=\"ISO-8859-1\"" . $quebra_linha . "" . $quebra_linha . ""; //plain 
+$mens .= "Content-Type: text/html; charset=\"UTF-8\"" . $quebra_linha . "" . $quebra_linha . ""; //plain 
 $mens .= "$mensagem" . $quebra_linha . ""; 
 $mens .= "--$boundary" . $quebra_linha . ""; 
 $mens .= "Content-Type: application/pdf; name=\"PROPOSTA-SP815-2016.pdf\"" . $quebra_linha . ""; 
