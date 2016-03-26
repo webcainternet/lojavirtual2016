@@ -168,7 +168,7 @@ Algum campo foi preenchido incorretamente!
         <h2 style="color: #FFF; line-height: 15px;">Nós criamos sua loja virtual e você começa a vender agora mesmo.</h2>
       </div>
 
-      <div style="margin: auto; width: 805px; margin-top: 20px;">
+      <div style="margin: auto; width: 815px; margin-top: 20px;">
         <span style="color: #FFF; font-size: 16px;">Receba o orçamento por e-mail:</span><br>
         <input class="orctext" type="text" name="orcnome" placeholder="Nome" id="orcnome">
         <input class="orctext" type="text" name="orcemail" placeholder="E-Mail" id="orcemail">
