@@ -145,8 +145,8 @@ src="https://www.facebook.com/tr?id=952885944793384&ev=PageView&noscript=1"
       </div>
     </nav>
 
-    <div style="float: right; padding: 10px 0px 10px 10px; font-size: 16px; color: #777; font-family: 'Open Sans', sans-serif;font-family: 'Fjalla One', cursive;">
-      Atendimento: &nbsp; <i class="fa fa-comment"></i> ONLINE &nbsp; <i class="fa fa-phone"></i> 11 2376-0583
+    <div style="float: right; padding: 10px 0px 10px 10px; font-size: 14px; color: #777; font-family: 'Open Sans', sans-serif;">
+      Atendimento: &nbsp; <i class="fa fa-comment"></i> ONLINE &nbsp; <i class="fa fa-phone"></i> <span style="font-weight: bold;">11 2376-0583</span>
     </div>
 
   </div>
