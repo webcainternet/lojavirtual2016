@@ -7,6 +7,18 @@
   #column-left {
     display: none;
   }
+  .product-thumb {
+    border: 0px;
+  }
+  .price {
+    display: none;
+  }
+  .button-group {
+    display: none;
+  }
+  .col-lg-4 {
+    height: 385px;
+  }
 </style>
 
 <?php if ($_SERVER['REQUEST_URI'] == '/plugins') { ?>
