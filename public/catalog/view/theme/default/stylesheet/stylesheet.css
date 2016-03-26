@@ -1,3 +1,9 @@
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+}
 body {
 	font-family: 'Open Sans', sans-serif;
 font-weight: 400;
@@ -964,7 +970,6 @@ h2.price {
 .container-titulo {
     color: #FFF;
     margin: 0px;
-    margin-top: 30px;
     padding-top: 10px;
 }
 .container-tema {
@@ -1600,11 +1605,11 @@ margin-top: 20px;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     background-color: #5CB83B;
     background-repeat: repeat-x;
-    border: solid 2px;
     border-color: #349970 #349970 #349970;
-    border-radius: 10px;
+    border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
     width: 175px;
+    height: 55px;
     margin-left: 165px;
   }
   .btn-primary-comecar {
@@ -1612,11 +1617,11 @@ margin-top: 20px;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     background-color: #D97B71;
     background-repeat: repeat-x;
-    border: solid 2px;
     border-color: #621E15 #621E15 #621E15;
-    border-radius: 10px;
+    border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
     width: 175px;
+    height: 55px;
     margin-left: 110px;
   }
   .btn-primary-comecar2 {
@@ -1624,11 +1629,11 @@ margin-top: 20px;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     background-color: #D97B71;
     background-repeat: repeat-x;
-    border: solid 2px;
     border-color: #621E15 #621E15 #621E15;
-    border-radius: 10px;
+    border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
     width: 175px;
+    height: 55px;
     margin-left: 210px;
 }
 

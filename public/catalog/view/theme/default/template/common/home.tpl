@@ -49,6 +49,143 @@
 </div>
 
 
+<script src="/catalog/view/javascript/jquery/jquery.maskedinput.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#orctelefone").mask("(99) 9999-9999?9");
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#orcenviar").click(function(){
+    if ($("#orcnome").val() != '' && $("#orcemail").val() != '' && $("#orctelefone").val() != '') {
+      $.post("/orcamento/envia.php",
+      {
+          orcnome: $("#orcnome").val(),
+          orcemail: $("#orcemail").val(),
+          orctelefone: $("#orctelefone").val()
+      },
+      function(data, status){
+          //alert("Data: " + data + "\nStatus: " + status);
+          if (status == 'success' && data == 'ok') {
+            $("#orcpop").fadeIn(1000);
+            $("#orcpop").delay(4000).fadeOut(1000);
+            $("#orcnome").css("background-color", "#FFFFFF");
+            $("#orcemail").css("background-color", "#FFFFFF");
+            $("#orctelefone").css("background-color", "#FFFFFF");
+            $("#orcnome").val('');
+            $("#orcemail").val('');
+            $("#orctelefone").val('');
+          }
+      });
+    } else {
+      if ($("#orcnome").val() == "") {
+        $("#orcnome").css("background-color", "#FFDDDD");
+        orcerro = 1;
+      } else {
+        $("#orcnome").css("background-color", "#FFFFFF");
+      }
+      if ($("#orcemail").val() == "") {
+        $("#orcemail").css("background-color", "#FFDDDD");
+        orcerro = 1;
+      } else {
+        $("#orcemail").css("background-color", "#FFFFFF");
+      }
+      if ($("#orctelefone").val() == "") {
+        $("#orctelefone").css("background-color", "#FFDDDD");
+        orcerro = 1;
+      } else {
+        $("#orctelefone").css("background-color", "#FFFFFF");
+      }
+
+      if (orcerro == 1) {
+        $("#orcpoperro").fadeIn(1000);
+        $("#orcpoperro").delay(4000).fadeOut(1000);
+      }
+    }    
+  });
+});
+</script>
+
+<style type="text/css">
+  .orctext {
+    padding: 15px;
+    color: #555;
+    font-size: 14px;
+    border-radius: 5px;
+    border: solid 1px #DDD;
+  }
+
+  .orcpop {
+    background-color: #eee;
+    border: solid 5px #F6AE3B;
+    position: fixed;
+    bottom: 115px;
+    left: 15px;
+    padding: 20px;
+    color: #333;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 99999;
+    font-size: 13px;
+    display: none;
+  }
+  .orcpoperro {
+    background-color: #eee;
+    border: solid 5px #cc0000;
+    position: fixed;
+    bottom: 115px;
+    left: 15px;
+    padding: 20px;
+    color: #333;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 99999;
+    font-size: 13px;
+    display: none;
+  }
+</style>
+
+
+<div id="orcpop" class="orcpop">
+<span style="font-weight: bold;">Sucesso!</span><br>
+Orçamento enviado com sucesso!
+</div>
+<div id="orcpoperro" class="orcpoperro">
+<span style="font-weight: bold;">Erro!</span><br>
+Algum campo foi preenchido incorretamente!
+</div>
+
+<? /* ************************************************************************************
+    ORÇAMENTO - Formulário
+************************************************************************************* */ ?>
+<div class="container-titulo" style="background-color: #F6AE3B; margin-top: 30px; padding-bottom: 30px;">
+  <div class="container">
+    <div class="row">
+      <div style="text-align: center;">
+        <h1 style="color: #FFF; line-height: 15px;">Sua empresa ainda não esta na Internet?</h1>
+        <h2 style="color: #FFF; line-height: 15px;">Nós criamos sua loja virtual e você começa a vender agora mesmo.</h2>
+      </div>
+
+      <div style="margin: auto; width: 805px; margin-top: 20px;">
+        <span style="color: #FFF; font-size: 16px;">Receba o orçamento por e-mail:</span><br>
+        <input class="orctext" type="text" name="orcnome" placeholder="Nome" id="orcnome">
+        <input class="orctext" type="text" name="orcemail" placeholder="E-Mail" id="orcemail">
+        <input class="orctext" type="text" name="orctelefone" placeholder="Telefone" id="orctelefone">
+        <input class="newsletter-contato btn btn-inverse btn-lg dropdown-toggle" style="width: 250px; height: 55px; border: 0px; color: #FFF !important;" type="submit" required="" name="orcenviar" id="orcenviar" value="Receber orçamento">
+        <div style="margin-top: 10px; color: #FFF; font-size: 14px; text-align: center;">O orçamento pode ser visualizado através do link <a href="" style="color: #FFF; text-decoration: underline;">/orcamento</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
 <? /* ************************************************************************************
     TEMPLATES - CoverFlow
 ************************************************************************************* */ ?>
@@ -101,7 +238,7 @@
             </ul>
           </ul>
 
-          <a href="/modelos"><div style="text-align: center; margin: auto; width: 300px;"><input class="newsletter-contato btn btn-inverse btn-block btn-lg dropdown-toggle" style="width: 300px;" type="submit" required="" name="contato" value="Veja todos os modelos!"></div></a>
+          <a href="/modelos"><div style="text-align: center; margin: auto; width: 270px;"><input class="newsletter-contato btn btn-inverse btn-block btn-lg dropdown-toggle" style="width: 270px; height: 55px; color: #FFF !important;" type="submit" required="" name="contato" value="Veja todos os modelos!"></div></a>
         </div>
       </div>
     </div>

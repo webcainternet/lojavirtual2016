@@ -11,17 +11,26 @@ if( PATH_SEPARATOR ==';') {
 }
  
 //pego os dados enviados pelo formulário 
-$nome_para = "Fernando Mendes";
-$email = "fernando.mendes@webca.com.br";
+$nome_para = $_POST['orcnome'];
+$email = $_POST['orcemail'];
+$telefone = $_POST['orctelefone'];
 $assunto = "Loja Virtual .digital - Proposta de desenvolvimento";
 
 $mensagem = '<html>
 <body>
-<div style="overflow: hidden;"><div>Olá Cliente,<div><br></div><div>Segue em anexo proposta para desenvolvimento de loja virtual solicitada através de nosso site <a href="https://lojavirtual.digital/" target="_blank">https://lojavirtual.digital/</a></div><div><br></div><div>Qualquer dúvida estamos a disposição através do tel. 11 2376-0583.</div><div><br></div><div>Abraço</div><div><br clear="all"><div><div><div><div><div><div><div><div><div><div><div>--</div><div><br>Obrigado,</div><div>Fernando Mendes</div><div><a href="http://lojavirtual.digital/" style="color:rgb(17,85,204)" target="_blank">http://lojavirtual.digital/</a></div><div><br></div><div>Atendimento:&nbsp;11 2376-0583</div><div><a href="mailto:contato@lojavirtual.digital" style="color:rgb(17,85,204)" target="_blank">contato@lojavirtual.digital</a></div><div><br></div><div><img src="https://lojavirtual.digital/image/catalog/lojalogo_1_mail.png"><br></div><div><hr style="color:rgb(0,0,0);font-family:Times;font-size:medium;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-top-style:solid"></div><div><font size="1">Esta mensagem e seus anexos se dirigem exclusivamente ao seu destinatário, pode conter informação privilegiada ou confidencial e é para uso exclusivo da pessoa ou entidade de destino. Se não é vossa senhoria o destinatário indicado, fica notificado de que a leitura, utilização, divulgação e/ou cópia sem autorização pode estar proibidas em virtude da legislação vigente. Se recebeu essa mensagem por erro, rogamos-lhe que nos o comunique imediatamente por esta mesma via e proceda a sua destruição.</font><div></div><div><br></div></div></div></div></div></div></div></div></div></div></div></div><div>
+<div style="overflow: hidden;"><div>Olá '.strtoupper($nome_para).',<div><br></div><div>Segue em anexo proposta para desenvolvimento de loja virtual solicitada através de nosso site <a href="https://lojavirtual.digital/" target="_blank">https://lojavirtual.digital/</a></div><div><br></div><div>Qualquer dúvida estamos a disposição através do tel. 11 2376-0583.</div><div><br></div><div>Abraço</div><div><br clear="all"><div><div><div><div><div><div><div><div><div><div><div>--</div><div><br>Obrigado,</div><div>Fernando Mendes</div><div><a href="http://lojavirtual.digital/" style="color:rgb(17,85,204)" target="_blank">http://lojavirtual.digital/</a></div><div><br></div><div>Atendimento:&nbsp;11 2376-0583</div><div><a href="mailto:contato@lojavirtual.digital" style="color:rgb(17,85,204)" target="_blank">contato@lojavirtual.digital</a></div><div><br></div><div><img src="https://lojavirtual.digital/image/catalog/lojalogo_1_mail.png"><br></div><div><hr style="color:rgb(0,0,0);font-family:Times;font-size:medium;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-top-style:solid"></div><div><font size="1">Esta mensagem e seus anexos se dirigem exclusivamente ao seu destinatário, pode conter informação privilegiada ou confidencial e é para uso exclusivo da pessoa ou entidade de destino. Se não é vossa senhoria o destinatário indicado, fica notificado de que a leitura, utilização, divulgação e/ou cópia sem autorização pode estar proibidas em virtude da legislação vigente. Se recebeu essa mensagem por erro, rogamos-lhe que nos o comunique imediatamente por esta mesma via e proceda a sua destruição.</font><div></div><div><br></div></div></div></div></div></div></div></div></div></div></div></div><div>
 </div><div><br></div></div></div><div>
 </div></div>
 </body>
 </html>';
+
+$mensagem2 = '<h2>Dados recebidos</h2>
+Nome: '.$nome_para.'<br>
+E-Mail: '.$email.'<br>
+Telefone: '.$telefone.'<br>
+<p>Boas vendas!</p>
+';
+
 //formato o campo da mensagem 
 //$mensagem = wordwrap( $mensagem, 50, "<br>", 1); 
  
@@ -54,6 +63,12 @@ $mens .= "Content-Disposition: attachment; filename=\"PROPOSTA-SP815-2016.pdf\""
 $mens .= "Content-Transfer-Encoding: base64" . $quebra_linha . "" . $quebra_linha . ""; 
 $mens .= "$anexo" . $quebra_linha . ""; 
 $mens .= "--$boundary--" . $quebra_linha . ""; 
+
+$mens2 = "--$boundary" . $quebra_linha . ""; 
+$mens2 .= "Content-Transfer-Encoding: 8bits" . $quebra_linha . ""; 
+$mens2 .= "Content-Type: text/html; charset=\"UTF-8\"" . $quebra_linha . "" . $quebra_linha . ""; //plain 
+$mens2 .= "$mensagem2" . $quebra_linha . ""; 
+$mens2 .= "--$boundary" . $quebra_linha . ""; 
  
 $headers = "MIME-Version: 1.0" . $quebra_linha . ""; 
 $headers .= "From: $email_from " . $quebra_linha . ""; 
@@ -61,9 +76,13 @@ $headers .= "Return-Path: $email_from " . $quebra_linha . "";
 $headers .= "Content-type: multipart/mixed; boundary=\"$boundary\"" . $quebra_linha . ""; 
 $headers .= "$boundary" . $quebra_linha . ""; 
  
-//envio o email com o anexo 
-mail($email,$assunto,$mens,$headers, "-r"."fernando.mendes@lojavirtual.digital"); 
+//envia o email com o anexo para o cliente
+if ($email != "") {
+//	mail($email,$assunto,$mens,$headers, "-r"."fernando.mendes@lojavirtual.digital"); 
+}
+
+//envia o email para nós com os dados do cliente
+//mail("fernando.mendes@lojavirtual.digital","Loja Virtual .digital - Novo orçamento solicitado",$mens2,$headers, "-r"."fernando.mendes@lojavirtual.digital");
  
-echo"Email enviado com Sucesso!"; 
- 
+echo"ok";
 ?>
