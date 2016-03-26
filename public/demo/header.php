@@ -42,7 +42,7 @@
       <!-- Start Express -->
       <div id="comecar-start" style="display: none;">
         <div class="comecaragora-col6">
-          <a href="/profissional" target="_parent"><button type="button" id="button-cart" data-loading-text="Carregando..." class="btn btn-primary btn-lg btn-block" style="margin-top: 20px; text-transform: uppercase;">Saiba mais</button></a>
+          <a href="/profissional" target="_parent"><button type="button" id="button-cart" data-loading-text="Carregando..." class="btn btn-primary btn-lg btn-block" style="margin-top: 35px; text-transform: uppercase;">Saiba mais</button></a>
         </div>
         <div class="comecaragora-col2">
           <div class="comecaragora-text1 wca-font2">
@@ -59,7 +59,7 @@
       <!-- Profissional -->
       <div id="comecar-profissional">
         <div class="comecaragora-col6">
-          <a href="//lojavirtual.digital/profissional" target="_parent"><button type="button" id="button-cart" data-loading-text="Carregando..." class="btn btn-primary btn-lg btn-block" style="margin-top: 20px; text-transform: uppercase;">Saiba mais</button></a>
+          <a href="//lojavirtual.digital/profissional" target="_parent"><button type="button" id="button-cart" data-loading-text="Carregando..." class="btn btn-primary btn-lg btn-block" style="margin-top: 35px; text-transform: uppercase;">Saiba mais</button></a>
         </div>
         <div class="comecaragora-col2">
           <div class="comecaragora-text1 wca-font2">

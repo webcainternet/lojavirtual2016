@@ -133,7 +133,33 @@ src="https://www.facebook.com/tr?id=952885944793384&ev=PageView&noscript=1"
 </nav>
 */ ?>
 
+<div style="background-color: #F8F8F8; margin-bottom: 5px;">
+  <div class="container" style="padding-left: 0px;">
+    <nav id="menuservicos">
+      <div>
+        <ul class="nav navbar-nav">
+          <li><a href="/webmail" target="_blank">Webmail</a></li>
+          <li><a href="/painel" target="_blank">Painel de Controle</a></li>
+          <li><div style="margin-left: 10px;" class="fb-like" data-href="https://facebook.com/lojavirtual.digital" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div style="float: right; padding: 10px 0px 10px 10px; font-size: 16px; color: #777; font-family: 'Open Sans', sans-serif;font-family: 'Fjalla One', cursive;">
+      Atendimento: &nbsp; <i class="fa fa-comment"></i> ONLINE &nbsp; <i class="fa fa-phone"></i> 11 2376-0583
+    </div>
+
+  </div>
+
+
+
+  
+</div>
+
 <header>
+  
+
+
   <div class="container">
     <div class="row">
       <div class="col-sm-4" style="padding-right: 0px; padding-left: 0px;">
@@ -146,38 +172,33 @@ src="https://www.facebook.com/tr?id=952885944793384&ev=PageView&noscript=1"
         </div>
       </div>
       
-      <div class="col-sm-3" style="padding-left: 0px; margin-top: 10px; font-size: 14px; float: right; width: 230px;">
-        <div class="telefonebox"><i class="fa fa-phone" style="font-size: 22px; color: #FFF; margin-left: 8px;"></i>&nbsp;<span class="hidden-xs hidden-sm hidden-md" style="color: #ffffff; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; font-size: 22px;"><?php echo $telephone; ?></span></div>
+      <div class="container" style="float: right; width: 50%;">
+        <nav id="menuservicos">
+          <div>
+            <ul class="nav navbar-nav" style="margin-right: 16px; float: right;">
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#quemsomos">Quem Somos</a></li>
+              <li><a href="#ajuda">Ajuda?</a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
-      
-      <div class="col-sm-3" style="padding-left: 0px; margin-top: 10px; font-size: 14px; float: right; width: 270px;">
-        <?php //echo $cart; ?>
-        <a href="https://facebook.com/lojavirtual.digital" target="_blank">
-        <div class="fb-like" data-href="https://facebook.com/lojavirtual.digital" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-
-        <div class="face-group">
-          <i class="fa fa-facebook faceicon"></i> 
-          /lojavirtual.digital
-        </div>
-        </a>
-      </div>
-
-      <div class="col-sm-5" style="margin-top: 10px; width: 230px; float: right;"><?php echo $search; ?></div>
 
       <div class="container">
         <nav id="menu" class="navbar">
           <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
               <li><a href="/" class="select-home">Home</a></li>
+              <li><a href="/profissional" class="select-lojavirtual">Como funciona?</a></li>
               <li><a href="/modelos" class="select-modelos">Modelos</a></li>
-              <li><a href="/profissional" class="select-lojavirtual">Loja Virtual</a></li>
               <li><a href="/plugins" class="select-plugins">Plugins</a></li>
-              <li><a href="/email" class="select-email">E-Mail Corporativo</a></li>
+              <!-- <li><a href="/email" class="select-email">E-Mail Corporativo</a></li> -->
+              <!-- <li><a href="/modelos" class="select-clientes">Nossos Clientes</a></li> -->
             </ul>
           </div>
         </nav>
-        
       </div>
+
     </div>
   </div>
 </header>

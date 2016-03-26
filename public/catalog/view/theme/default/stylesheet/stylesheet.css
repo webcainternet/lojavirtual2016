@@ -182,12 +182,13 @@ div.required .control-label:before {
     float: right;
 }
 #menu .nav > li > a {
-	color: #757575;
+    color: #757575;
     border-bottom: solid 2px #FFFFFF;
     padding: 10px 10px;
     min-height: 15px;
     margin-left: 15px;
-    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 #menu .nav > li > a:hover, #menu .nav > li.open > a {
 	border-bottom: solid 2px #FCAD3A;
@@ -286,6 +287,113 @@ div.required .control-label:before {
 		color: #fff;
 	}
 }
+
+
+#menuservicos .nav > li > a {
+    color: #999;
+    padding: 10px 10px;
+    min-height: 15px;
+    margin-left: 0px;
+    font-size: 12px;
+}
+#menuservicos .nav > li > a:hover, #menuservicos .nav > li.open > a {
+	color: #666;
+}
+#menuservicos .dropdown-menu {
+	padding-bottom: 0;
+}
+#menuservicos .dropdown-inner {
+	display: table;
+}
+#menuservicos .dropdown-inner ul {
+	display: table-cell;
+}
+#menuservicos .dropdown-inner a {
+	min-width: 160px;
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	line-height: 20px;
+	color: #333333;
+	font-size: 12px;
+}
+#menuservicos .dropdown-inner li a:hover {
+	color: #FFFFFF;
+}
+#menuservicos .see-all {
+	display: block;
+	margin-top: 0.5em;
+	border-top: 1px solid #DDD;
+	padding: 3px 20px;
+	font-size: 12px;
+}
+#menuservicos .see-all:hover, #menuservicos .see-all:focus {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #229ac8;
+	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-repeat: repeat-x;
+}
+#menuservicos #category {
+	float: left;
+	padding-left: 15px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 40px;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+#menuservicos .btn-navbar {
+	font-size: 15px;
+	font-stretch: expanded;
+	color: #FFF;
+	padding: 2px 18px;
+	float: right;
+	background-color: #229ac8;
+	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-repeat: repeat-x;
+	border-color: #1f90bb #1f90bb #145e7a;
+}
+#menuservicos .btn-navbar:hover, #menuservicos .btn-navbar:focus, #menuservicos .btn-navbar:active, #menuservicos .btn-navbar.disabled, #menuservicos .btn-navbar[disabled] {
+	color: #ffffff;
+	background-color: #229ac8;
+}
+@media (min-width: 768px) {
+	#menuservicos .dropdown:hover .dropdown-menu {
+		display: block;
+	}
+}
+@media (max-width: 767px) {
+	#menuservicos {
+	}
+	#menuservicos div.dropdown-inner > ul.list-unstyled {
+		display: block;
+	}
+	#menuservicos div.dropdown-menu {
+		margin-left: 0 !important;
+		padding-bottom: 10px;
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+	#menuservicos .dropdown-inner {
+		display: block;
+	}
+	#menuservicos .dropdown-inner a {
+		width: 100%;
+		color: #fff;
+	}
+	#menuservicos .dropdown-menu a:hover,
+	#menuservicos .dropdown-menu ul li a:hover {
+		background: rgba(0, 0, 0, 0.1);
+	}
+	#menuservicos .see-all {
+		margin-top: 0;
+		border: none;
+		border-radius: 0;
+		color: #fff;
+	}
+}
+
+
 /* content */
 #content {
 	min-height: 445px;
@@ -1401,7 +1509,7 @@ margin-top: 20px;
   }
   .comecaragora-col2 {
     float: right;
-    margin: 20px 15px;
+    margin: 35px 15px;
   }
   .comecaragora-col4 {
     float: left;

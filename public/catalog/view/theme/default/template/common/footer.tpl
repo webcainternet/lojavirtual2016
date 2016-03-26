@@ -18,7 +18,7 @@
       <!-- Start Express -->
       <div id="comecar-start" style="display: none;">
         <div class="comecaragora-col6">
-          <a href="/profissional"><button type="button" id="button-cart" data-loading-text="Carregando..." class="btn btn-primary btn-lg btn-block" style="margin-top: 20px; text-transform: uppercase;">Saiba mais</button></a>
+          <a href="/profissional"><button type="button" id="button-cart" data-loading-text="Carregando..." class="btn btn-primary btn-lg btn-block" style="margin-top: 35px; text-transform: uppercase;">Saiba mais</button></a>
         </div>
         <div class="comecaragora-col2">
           <div class="comecaragora-text1 wca-font2">
@@ -35,7 +35,7 @@
       <!-- Profissional -->
       <div id="comecar-profissional">
         <div class="comecaragora-col6">
-          <a href="/profissional"><button type="button" id="button-cart" data-loading-text="Carregando..." class="btn btn-primary btn-lg btn-block" style="margin-top: 20px; text-transform: uppercase;">Saiba mais</button></a>
+          <a href="/profissional"><button type="button" id="button-cart" data-loading-text="Carregando..." class="btn btn-primary btn-lg btn-block" style="margin-top: 35px; text-transform: uppercase;">Saiba mais</button></a>
         </div>
         <div class="comecaragora-col2">
           <div class="comecaragora-text1 wca-font2">
@@ -43,7 +43,7 @@
             <span style="font-size: 12px;" class="wca-font2">12x de </span>R$ 239<span style="font-size: 12px;" class="wca-font2">,90</span>
           </div>
           <div class="comecaragora-text2 wca-font2">Incluso hospedagem por 1 ano</div>
-          <div class="comecaragora-text2 wca-font2">à vista R$ 2.590,92 (10% de desconto)</div>
+          <div class="comecaragora-text2 wca-font2" style="display: none;">à vista R$ 2.590,92 (10% de desconto)</div>
         </div>
       </div>
 
