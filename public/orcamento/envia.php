@@ -23,7 +23,7 @@ $mensagem = '<html>
 </body>
 </html>';
 //formato o campo da mensagem 
-$mensagem = wordwrap( $mensagem, 50, "<br>", 1); 
+//$mensagem = wordwrap( $mensagem, 50, "<br>", 1); 
  
 /* 
 //valido os emails 
