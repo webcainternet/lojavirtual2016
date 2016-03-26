@@ -34,8 +34,8 @@ exit;
 } 
 */
  
-$fp = fopen('/srv/httpd/lojavirtual.digital/lojavirtual2016/public/orcamento/PROPOSTA-SP815-2016.png',"rb"); 
-$anexo = fread($fp,filesize('/srv/httpd/lojavirtual.digital/lojavirtual2016/public/orcamento/PROPOSTA-SP815-2016.png')); 
+$fp = fopen('/srv/httpd/lojavirtual.digital/lojavirtual2016/public/orcamento/PROPOSTA-SP815-2016.pdf',"rb"); 
+$anexo = fread($fp,filesize('/srv/httpd/lojavirtual.digital/lojavirtual2016/public/orcamento/PROPOSTA-SP815-2016.pdf')); 
 $anexo = base64_encode($anexo); 
  
 fclose($fp); 
