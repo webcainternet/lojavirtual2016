@@ -611,6 +611,7 @@ footer h5 {
 	border: 1px solid #ddd;
 	margin-bottom: 20px;
 	overflow: auto;
+	min-height: 345px;
 }
 .product-thumb .image {
 	text-align: center;
