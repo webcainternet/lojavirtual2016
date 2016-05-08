@@ -11,9 +11,9 @@ if( PATH_SEPARATOR ==';') {
 }
  
 //pego os dados enviados pelo formulário 
-$nome_para = $_POST['orcnome'];
-$email = $_POST['orcemail'];
-$telefone = $_POST['orctelefone'];
+$nome_para = $_GET['orcnome'];
+$email = $_GET['orcemail'];
+$telefone = $_GET['orctelefone'];
 $assunto = "Loja Virtual .digital - Proposta de desenvolvimento";
 
 $mensagem = '<html>

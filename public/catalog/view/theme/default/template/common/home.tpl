@@ -60,7 +60,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#orcenviar").click(function(){
     if ($("#orcnome").val() != '' && $("#orcemail").val() != '' && $("#orctelefone").val() != '') {
-      $.post("/orcamento/envia.php",
+      $.get("/orcamento/envia.php",
       {
           orcnome: $("#orcnome").val(),
           orcemail: $("#orcemail").val(),
