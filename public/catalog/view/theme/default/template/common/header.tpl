@@ -44,6 +44,7 @@
 <?php foreach ($scripts as $script) { ?>
 <script src="<?php echo $script; ?>" type="text/javascript"></script>
 <?php } ?>
+
 <!-- Facebook Like box -->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
